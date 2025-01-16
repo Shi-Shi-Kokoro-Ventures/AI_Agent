@@ -1,24 +1,6 @@
-# Core Dependencies
-ollama==0.4.6
-httpx==0.27.2
-pydantic==2.10.5
-
-# Security and Error Handling (Optional but Recommended)
-certifi==2024.12.14
-anyio==4.8.0
-sniffio==1.3.1
-idna==3.10
-h11==0.14.0
-httpcore==1.0.7
-
-# Development Tools (Optional)
-black==23.3.0  # Code Formatter
-flake8==6.1.0  # Linter for Code Quality
-mypy==1.8.0    # Static Type Checking
-
-# Documentation Tools (Optional)
-mkdocs==1.5.3  # For Project Documentation
-
-# Testing Tools (Optional)
-pytest==7.4.3  # Testing Framework
-pytest-asyncio==0.23.5  # For Testing Async Code
+langchain==0.0.195
+requests==2.31.0
+openai==0.27.8
+chromadb==0.3.26
+PyPDF2==3.0.1
+python-dotenv==1.0.0
